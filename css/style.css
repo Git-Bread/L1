@@ -43,31 +43,31 @@ h6 {
     font-size: 3vmax;
     margin-left: 2em;
 }
-#current {
-    color: rgb(224, 38, 38);
-}
 
 /*Index*/
 #index {
-    margin: 1em;
+    padding: 1em;
+    margin: 0.1em;
+    padding-top: 0;
+    border: solid 1px black;
 }
 #index div div {
     margin-left: 3%;
 }
-h2, h4 {
+#index h2, h4 {
     background-color: #006596;
     max-width: 100%;
 }
-h4 {
+#index h4 {
     max-width: 90%;
     margin-left: 0;
 }
-h3 {
+#index h3 {
     max-width: 95%;
     background-color: #0089CC;
     margin-left: 1%;
 }
-h2, h4, h3{
+#index h2, h4, h3{
     font-size: 4vmax !important;
     color: #fff;
     text-indent: 5px;
