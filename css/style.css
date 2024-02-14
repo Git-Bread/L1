@@ -1,12 +1,13 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     font-size: 4vmax;
 }
 body {
     margin: 0;
 }
-p {
+p, strong, i, li {
     max-width: 60ch;
+    font-size: 2vmax;
 }
 header {
     background-color: cadetblue;
@@ -38,13 +39,54 @@ footer {
     position: absolute;
     width: 100%;
 }
-h4 {
+h6 {
     font-size: 3vmax;
     margin-left: 2em;
 }
 #current {
     color: rgb(224, 38, 38);
 }
+
+/*Index*/
+#index {
+    margin: 1em;
+}
+#index div div {
+    margin-left: 3%;
+}
+h2, h4 {
+    background-color: #006596;
+    max-width: 100%;
+}
+h4 {
+    max-width: 90%;
+    margin-left: 0;
+}
+h3 {
+    max-width: 95%;
+    background-color: #0089CC;
+    margin-left: 1%;
+}
+h2, h4, h3{
+    font-size: 4vmax !important;
+    color: #fff;
+    text-indent: 5px;
+    border-radius: 4px;
+    padding: 4px;
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+}
+strong {
+    font-weight: 600;
+    font-size: inherit;
+}
+ul {
+    margin-top: 0.1em;
+}
+li {
+    margin-bottom: 0.6em;
+}
+
 
 /*Images*/
 #alt-img {
