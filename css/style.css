@@ -7,7 +7,7 @@ body {
 }
 p, strong, i, li {
     max-width: 60ch;
-    font-size: 2vmax;
+    font-size: 1.8vmax;
 }
 header {
     background-color: cadetblue;
@@ -109,6 +109,10 @@ h2 {
     font-size: 3.2vmax;
     margin: 0.2em;
     margin-left: 0;
+}
+
+#about {
+    margin: 1em;
 }
 
 /*another image row for small screens*/
